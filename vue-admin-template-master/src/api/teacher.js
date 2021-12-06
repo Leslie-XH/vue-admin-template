@@ -37,5 +37,12 @@ export default {
       url: `/eduservice/eduteacher/getTeacherById/${id}`,
       method: 'get'
     })
+  },
+  // 获取所有讲师
+  getAllTeacher() {
+    return request({
+      url: `/eduservice/eduteacher/getAllTeacher/`,
+      method: 'get'
+    })
   }
 }

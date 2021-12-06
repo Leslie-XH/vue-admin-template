@@ -95,7 +95,7 @@ export default {
   data() {
     return {
       current: 1,
-      limit: 10,
+      limit: 4,
       teacherQuery: {},
       list: [], // 列表数据
       total: 0
