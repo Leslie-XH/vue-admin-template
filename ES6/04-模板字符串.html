@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //拼接字符串
+        let str = 'hello'
+        let name = 'java201021'
+        console.log(`${str} ${name} !`)
+        //定义长字符串
+        let head = `
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+`
+        console.log(head)
+        //可以调用函数
+        function getName() {
+            return 'java201021!!!!'
+        }
+        console.log(`${str} ${getName()} !`)  
+    </script>
+
+</body>
+
+</html>

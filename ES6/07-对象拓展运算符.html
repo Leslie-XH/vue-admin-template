@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let user = {
+            name: 'zhang3',
+            age: 33
+        }
+        let user1 = user
+        console.log(user1)
+        let user2 = { ...user }
+        console.log(user2)
+
+        let name = { name: 'li4' }
+        let age = { age: 44 }
+        let user3 = { ...name, ...age }
+        console.log(user3)
+
+        let user4 = { ...user1, ...user3 }
+        console.log(user4)//user1被覆盖了，因为对象属性名一致
+    </script>
+</body>
+
+</html>
