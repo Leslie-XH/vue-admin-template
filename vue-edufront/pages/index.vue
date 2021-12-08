@@ -468,6 +468,7 @@ export default {
   },
   created() {
     this.getAllBannerList();
+    console.log(123)
     this.getCourseTeacher();
   },
   methods: {
